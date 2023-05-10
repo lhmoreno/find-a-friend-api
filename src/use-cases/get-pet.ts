@@ -1,4 +1,4 @@
-import { CreatePet, Pet, PetsRepository } from '@/repositories/pets-repository'
+import { PetsRepository } from '@/repositories/pets-repository'
 
 interface GetPetUseCaseResponse {
   pet: Pet
